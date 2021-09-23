@@ -23,7 +23,8 @@
 		"dbaeumer.vscode-eslint",
 		"mtxr.sqltools",
 		"mtxr.sqltools-driver-pg",
-		"ms-ossdata.vscode-postgresql"
+		"ms-ossdata.vscode-postgresql",
+		"github.copilot"
 	],
 
 
