@@ -29,6 +29,10 @@ app.post('/heart', (req, res) => {
   });
 });
 
+// app.get('/heart', (req, res) => {
+//   res.send('♥');
+// });
+
 // app.get('/fetch', (req, res) => {
 //   pool.query(`SELECT * FROM haikus where id=${req.query.id}`, () => {
 //     res.send('Success');
