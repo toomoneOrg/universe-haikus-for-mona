@@ -14,5 +14,5 @@ Builds for production and deployment.
 
 Run dev server with nodemon
 
-with updates
+with updates and other updates
 
