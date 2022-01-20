@@ -29,15 +29,4 @@ services:
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
 
-  datadog:
-    build: datadog
-    links:
-     - db # ensures that redis is a host that the container can find
-     - web # ensures that the web app can send metrics
-    environment:
-     - DD_API_KEY=7533d872adee3d57c477ffeb87c36d65
-    volumes:
-     - /var/run/docker.sock:/var/run/docker.sock
-     - /proc/:/host/proc/:ro
-     - /sys/fs/cgroup:/host/sys/fs/cgroup:ro
 
